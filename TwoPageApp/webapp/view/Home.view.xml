@@ -1,0 +1,21 @@
+<mvc:View controllerName="TwoPageApp.controller.Home" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Home Page">
+				<content>
+					<VBox justifyContent="Center" alignContent="Center" alignItems="Center" class="sapUiSmallMargin">
+						<VBox width="50%">
+							
+					<Label labelFor="idInput" text="Name:"/>
+					<Input id="idInput" placeholder="Enter your name"/>
+					<FlexBox justifyContent="Center">
+					<Button text="Submit" press="onSubmit"/>
+					</FlexBox>
+						</VBox>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

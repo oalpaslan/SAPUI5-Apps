@@ -12,12 +12,6 @@
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.40.12"
-		},
-		"dataSources": {
-			"detailModel": {
-				"uri": "model/detailModel.json",
-				"type": "JSON"
-			}
 		}
 	},
 	"sap.ui": {

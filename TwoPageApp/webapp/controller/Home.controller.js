@@ -12,6 +12,7 @@ sap.ui.define([
 			var json = {};
 			
 			var oName = this.byId("idInput").getValue();
+			this.getOwnerComponent().getModel("detailModel").setProperty("/Name", oName);
 			json.Name = oName;
 			this.sModel.setData(json);
 			sap.ui.getCore().setModel(this.sModel);	//To use the model in other views, we set the model globally using getCore
